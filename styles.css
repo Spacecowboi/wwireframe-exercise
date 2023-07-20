@@ -8,17 +8,21 @@ body {
 
 header {
     background-color: darkgrey;
+    
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding:10px;
 }
 
-nav li {
+nav div {
     padding: 5px 10px;
-    border: 1px solid white;
+}
+
+nav div:hover{
+    background-color: darkgrey;
 }
 
 main {
